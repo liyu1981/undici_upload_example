@@ -1,0 +1,19 @@
+{
+  "name": "undici_upload_example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node -r tsx/cjs --test undiciUpload.test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "form-data": "^4.0.2",
+    "undici": "^7.4.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3"
+  }
+}
